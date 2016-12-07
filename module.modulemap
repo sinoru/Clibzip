@@ -1,11 +1,5 @@
 module libzip [system] {
-  header "/usr/include/zip.h"
-  link "libzip"
-  export *
-}
-
-module libzip-local [system] {
   header "/usr/local/include/zip.h"
-  link "libzip"
+  link "zip"
   export *
 }
