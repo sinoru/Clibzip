@@ -1,7 +1,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "libzip",
+    name: "Clibzip",
     pkgConfig: "libzip",
     providers: [
                    .Apt("libzip-dev"),

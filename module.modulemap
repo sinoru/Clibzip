@@ -1,4 +1,4 @@
-module libzip [system] {
+module Clibzip [system] {
   header "/usr/local/include/zip.h"
   link "zip"
   export *
